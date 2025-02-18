@@ -64,7 +64,7 @@ export default function Gallery() {
           </Button>
         </Stack>
 
-        <Box sx={{ position: 'relative' }}>
+       <Box component="section" sx={{ p: 2, border: '1px dashed grey', position: 'relative' }}>
           <img
             src={cyclist.url}
             alt={cyclist.alt}
